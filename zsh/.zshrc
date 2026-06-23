@@ -157,16 +157,16 @@ setopt HIST_REDUCE_BLANKS     # limpia espacios sobrantes
 # For a full list of active aliases, run `alias`.
 #
 
+# Editor por defecto
+export EDITOR="nvim"
+export VISUAL="nvim"
+
+# ─── Alias ────────────────────────────────────────────────────────────────────
 alias aleluya="cd /Users/luisestebanramirez/Documents/aleluya"
 alias conexory="cd /Users/luisestebanramirez/Documents/conexory"
-alias projects="cd ~/Documents/projects"
-alias personal="cd ~/Documents/areas/personal"
-alias areas="cd ~/Documents/areas"
-alias nd="npm run dev"
-alias yd="yarn dev"
+alias obsidian='cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Esteban'
 alias journal="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/journal.md"
 alias dreams="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/dreams-journal.md"
-alias icloud="cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents"
 
 
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
@@ -178,8 +178,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias obsidian='cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Esteban'
-
 # bun completions
 [ -s "/Users/luisestebanramirez/.bun/_bun" ] && source "/Users/luisestebanramirez/.bun/_bun"
 
@@ -188,21 +186,8 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
-# Added by Antigravity
-export PATH="/Users/luisestebanramirez/.antigravity/antigravity/bin:$PATH"
-
 # GitHub Token (cargado desde archivo .env no versionado)
 [ -f "$HOME/.config/ghostty/.env" ] && source "$HOME/.config/ghostty/.env"
 
 # opencode
 export PATH=/Users/luisestebanramirez/.opencode/bin:$PATH
-
-# Added by Antigravity IDE
-export PATH="/Users/luisestebanramirez/.antigravity-ide/antigravity-ide/bin:$PATH"
-
-
-# Added by Antigravity CLI installer
-export PATH="/Users/luisestebanramirez/.local/bin:$PATH"
