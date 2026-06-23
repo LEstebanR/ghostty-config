@@ -162,8 +162,8 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 # ─── Alias ────────────────────────────────────────────────────────────────────
-alias aleluya="cd /Users/luisestebanramirez/Documents/aleluya"
-alias conexory="cd /Users/luisestebanramirez/Documents/conexory"
+alias aleluya="cd $HOME/Documents/aleluya"
+alias conexory="cd $HOME/Documents/conexory"
 alias obsidian='cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Esteban'
 alias journal="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/journal.md"
 alias dreams="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/dreams-journal.md"
@@ -179,7 +179,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # bun completions
-[ -s "/Users/luisestebanramirez/.bun/_bun" ] && source "/Users/luisestebanramirez/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
@@ -190,4 +190,4 @@ export PATH="$HOME/.local/bin:$PATH"
 [ -f "$HOME/.config/ghostty/.env" ] && source "$HOME/.config/ghostty/.env"
 
 # opencode
-export PATH=/Users/luisestebanramirez/.opencode/bin:$PATH
+export PATH=$HOME/.opencode/bin:$PATH
