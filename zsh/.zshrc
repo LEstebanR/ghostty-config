@@ -194,8 +194,8 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Added by Antigravity
 export PATH="/Users/luisestebanramirez/.antigravity/antigravity/bin:$PATH"
 
-# GitHub Token
-GITHUB_PERSONAL_ACCESS_TOKEN="***REMOVED***"
+# GitHub Token (cargado desde archivo .env no versionado)
+[ -f "$HOME/.config/ghostty/.env" ] && source "$HOME/.config/ghostty/.env"
 
 # opencode
 export PATH=/Users/luisestebanramirez/.opencode/bin:$PATH
