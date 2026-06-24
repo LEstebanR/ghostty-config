@@ -164,9 +164,10 @@ export VISUAL="nvim"
 # ─── Alias ────────────────────────────────────────────────────────────────────
 alias aleluya="cd $HOME/Documents/aleluya"
 alias conexory="cd $HOME/Documents/conexory"
-alias obsidian='cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Esteban'
-alias journal="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/journal.md"
 alias dreams="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/dreams-journal.md"
+alias journal="nvim ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/areas/personal/journal.md"
+alias obsidian='cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Esteban'
+alias pull-nvim="git -C $HOME/.config/nvim pull"
 
 
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
