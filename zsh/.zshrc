@@ -170,6 +170,7 @@ alias obsidian='cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Este
 alias pull-claude="git -C $HOME/.claude pull"
 alias pull-ghostty="git -C $HOME/.config/ghostty pull"
 alias pull-nvim="git -C $HOME/.config/nvim pull"
+alias update-setup="pull-nvim && pull-ghostty && pull-claude"
 alias push-claude="git -C $HOME/.claude add -A && git -C $HOME/.claude commit -m 'automatic update' && git -C $HOME/.claude push"
 alias push-ghostty="git -C $HOME/.config/ghostty add -A && git -C $HOME/.config/ghostty commit -m 'automatic update' && git -C $HOME/.config/ghostty push"
 alias push-nvim="git -C $HOME/.config/nvim add -A && git -C $HOME/.config/nvim commit -m 'automatic update' && git -C $HOME/.config/nvim push"
